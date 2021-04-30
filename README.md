@@ -35,7 +35,6 @@ Lemma Statistics | 0.729090128345818
 ### ACCURACY ON LATIN 
 Smoothing type             | Accuracy
 -------------------------- | --------------------------
-
 No smoothing | 0.9514099422733502
 P(unk|NOUN) = 1 | 0.9514099422733502
 P(unk|NOUN) = 0.5 and P(unk| VERB) = 0.5 | 0.9536940902861415
@@ -43,7 +42,11 @@ P(unk|tag) = 1/ #(tagset) | 0.9552722289131609
 POS Statistics | 0.958220856347855
 Lemma Statistics | 0.9552722289131609
 
- 
+### Python Dependences
+* Jupyter notebook
+* nltk
+* conllu
+* numpy
 
 
 
