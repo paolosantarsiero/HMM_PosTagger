@@ -22,7 +22,7 @@ The development involves the implementation of four fundamental tasks:
 * 4 => POS Statistics, only words with one occurrence
 * 5 => Lemma Statistics, use lemma to learning task
 
-### ACCURACY ON GREEK
+## ACCURACY ON GREEK
 Smoothing type             | Accuracy
 -------------------------- | --------------------------
 No smoothing  | 0.729090128345818
@@ -32,7 +32,7 @@ P(unk|tag) = 1/ #(tagset) | 0.729090128345818
 POS Statistics | 0.7580514337516103
 Lemma Statistics | 0.729090128345818
 
-### ACCURACY ON LATIN 
+## ACCURACY ON LATIN 
 Smoothing type             | Accuracy
 -------------------------- | --------------------------
 No smoothing | 0.9514099422733502
